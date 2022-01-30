@@ -78,3 +78,9 @@ p {
     background-color: #01BAEF;
 }
 
+.footer {
+    color: white;position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+}

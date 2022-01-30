@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-primary {
+    background-color: #9a3ee6!important;
+}

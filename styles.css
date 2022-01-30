@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(31, 7, 170);
+    background-color: #031D44;
 }
 
 .bg-primary {
@@ -30,9 +30,15 @@ h1 {
     justify-content: space-around;
 }
 
+.recommendations {
+    display: flex;
+    justify-content: center;
+}
+
 .read-books, .rated-books {
     display: flex;
     flex-direction: column;
+    margin: 40px;
 }
 
 .book {
@@ -55,9 +61,10 @@ h1 {
 }
 
 #book1, #book2, #book3 {
-    background-color: rgb(230, 9, 9);
+    background-color: #DF2935;
 }
 
 #book4, #book5, #book6 {
-    background-color: rgb(41, 163, 151);
+    background-color: #01BAEF;
 }
+

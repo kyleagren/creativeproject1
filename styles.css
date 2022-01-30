@@ -2,8 +2,30 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(31, 7, 170);
 }
 
 .bg-primary {
     background-color: #9a3ee6!important;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(194, 194, 194);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.welcome {
+    align-content: center;
+}
+
+.bookshelf-container {
+    align-content: center;
+}
+
+.list-categories {
+    display: flex;
+    justify-content: space-around;
 }

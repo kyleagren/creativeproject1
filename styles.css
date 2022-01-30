@@ -29,3 +29,35 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+
+.read-books, .rated-books {
+    display: flex;
+    flex-direction: column;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+
+    border-radius: 25px;
+}
+
+.rating {
+    color: yellow;
+}
+
+#book1, #book2, #book3 {
+    background-color: rgb(230, 9, 9);
+}
+
+#book4, #book5, #book6 {
+    background-color: rgb(41, 163, 151);
+}
